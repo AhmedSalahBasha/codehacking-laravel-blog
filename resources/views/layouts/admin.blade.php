@@ -81,69 +81,77 @@
                         <a href="index.html"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
                     </li>
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
+                        <!--<a href="#"><i class="fa fa-wrench fa-fw"></i> Users<span class="fa arrow"></span></a>-->
+                        <i class="fa fa-wrench fa-fw"></i> Users
+                        <!--<ul class="nav nav-second-level">-->
                             <li>
                                 <a href="panels-wells.html">All Users</a>
                             </li>
                             <li>
                                 <a href="buttons.html">Create User</a>
                             </li>
-                        </ul>
+                        <!--</ul>-->
                         <!-- /.nav-second-level -->
                     </li>
 
 
 
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
+                        <!--<a href="#"><i class="fa fa-wrench fa-fw"></i> Posts<span class="fa arrow"></span></a>-->
+                        <i class="fa fa-wrench fa-fw"></i> Posts
+                        <!--<ul class="nav nav-second-level">-->
                             <li>
                                 <a href="panels-wells.html">All Posts</a>
                             </li>
                             <li>
                                 <a href="buttons.html">Create Post</a>
                             </li>
-                        </ul>
+                        <!--</ul>-->
                         <!-- /.nav-second-level -->
                     </li>
 
+
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Categories<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
+                        <!--<a href="#"><i class="fa fa-wrench fa-fw"></i> Categories<span class="fa arrow"></span></a>-->
+                        <i class="fa fa-wrench fa-fw"></i> Categories
+                        <!--<ul class="nav nav-second-level">-->
                             <li>
                                 <a href="panels-wells.html">All Categories</a>
                             </li>
                             <li>
                                 <a href="buttons.html">Create Category</a>
                             </li>
-                        </ul>
+                        <!--</ul>-->
                         <!-- /.nav-second-level -->
                     </li>
 
+
                     <li>
-                        <a href="#"><i class="fa fa-wrench fa-fw"></i> Media<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
+                        <!--<a href="#"><i class="fa fa-wrench fa-fw"></i> Media<span class="fa arrow"></span></a>-->
+                        <i class="fa fa-wrench fa-fw"></i> Media
+                        <!--<ul class="nav nav-second-level">-->
                             <li>
                                 <a href="panels-wells.html">All Media</a>
                             </li>
                             <li>
                                 <a href="buttons.html">Create Media</a>
                             </li>
-                        </ul>
+                        <!--</ul>-->
                         <!-- /.nav-second-level -->
                     </li>
 
+
                     <li>
-                        <a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>
-                        <ul class="nav nav-second-level">
+                        <!--<a href="#"><i class="fa fa-bar-chart-o fa-fw"></i> Charts<span class="fa arrow"></span></a>-->
+                        <i class="fa fa-bar-chart-o fa-fw"></i> Charts
+                        <!--<ul class="nav nav-second-level">-->
                             <li>
                                 <a href="flot.html">Flot Charts</a>
                             </li>
                             <li>
                                 <a href="morris.html">Morris.js Charts</a>
                             </li>
-                        </ul>
+                        <!--</ul>-->
                         <!-- /.nav-second-level -->
                     </li>
                     <li>
@@ -229,7 +237,6 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">Dashboard</h1>
                     @yield('content')
                 </div>
                 <!-- /.col-lg-12 -->
