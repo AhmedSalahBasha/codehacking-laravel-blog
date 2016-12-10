@@ -1,22 +1,8 @@
 @extends('layouts/admin')
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@section('content')
+<h1 class="page-header">Admin Dashboard!</h1>
+@endsection
 
 
 

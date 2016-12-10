@@ -4,6 +4,19 @@
 
     <h1 class="page-header">Users Dashboard!</h1>
 
+    @if(Session::has('deleted_user'))
+        <h3 class="bg-danger">{{session('deleted_user')}}</h3>
+
+    @elseif(Session::has('updated_user'))
+        <h3 class="bg-success">{{session('updated_user')}}</h3>
+
+    @elseif(Session::has('created_user'))
+        <h3 class="bg-success">{{session('created_user')}}</h3>
+
+    @endif
+
+
+
     <table class="table table-striped">
         <thead>
         <tr>
